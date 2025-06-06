@@ -1,4 +1,4 @@
-algoritmo: problema 03
+03 - algoritmo: problema 03
 programa {
   funcao inicio() {
     //Declaração de variáveis
@@ -126,7 +126,7 @@ programa {
     leia(celcius)
 
     //processamento
-    fahrenheit = celcius * 9/5 + 32
+    fahrenheit = celcius * 9.0/5.0 + 32
 
     //saida de dados
     escreva(" a temperatura em fahrenhat é: ", fahrenheit)
