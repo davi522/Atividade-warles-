@@ -37,13 +37,13 @@ programa {
     escreva("Informe o valor gasto em março")
 
     //Processamento 
-    media_Aritmetica= janeiro+fevereiro+marco
+    media_Aritmetica= (janeiro+fevereiro+marco)/3
 
     //Saída de dados 
     escreva("A média aritmética é", media_Aritmetica)
+
   }
 }
-
 
 05 - algoritmo: problema 05
 programa {
@@ -67,6 +67,30 @@ programa {
 
   }
 }
+
+06 - algoritmo: problema 06
+programa {
+  função início() {
+  //Declaração de variavel
+    real x, y, troca
+
+    //Entrada de dados 
+    escreva("Informe o primeiro valor: ")
+    leia(x)
+    escreva("Informe o segundo valor: ")
+    leia(y)
+
+    //Processamento 
+    troca = x 
+    x = y 
+    y = troca
+
+    // Saida de dados
+    escreva("O valor trocado de x ", x , " O valor trocado de y ", y)
+
+ }
+}
+
 
 07 - algoritmo: problema 07
 programa {
