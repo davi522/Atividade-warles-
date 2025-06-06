@@ -35,6 +35,8 @@ programa {
     escreva("Informe o valor gasto em fevereiro")
     leia(fevereiro)
     escreva("Informe o valor gasto em março")
+    leia(março)
+   
 
     //Processamento 
     media_Aritmetica= (janeiro+fevereiro+marco)/3
